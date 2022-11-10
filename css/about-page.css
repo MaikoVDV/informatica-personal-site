@@ -1,3 +1,18 @@
 .maiko-face {
     float: right;
 }
+.about-section {
+    margin-top: 1.5rem;
+}
+.about-section .section-header {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.about-section .section-header img {
+    height: 100%;
+    margin-right: 0.4rem;
+}
+.about-section .section-header p {
+    margin: auto 0px;
+}
