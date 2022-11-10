@@ -24,3 +24,12 @@ nav a:hover:not(.current-page) {
     background: white;
     color: black;
 }
+nav a:first-child {
+    margin-left: var(--navbar-a-edge-margin);
+}
+nav a:last-child {
+    margin-right: var(--navbar-a-edge-margin);
+}
+nav a:not(:last-child) {
+    border-right: 1px solid var(--navbar-divider-color);
+}
