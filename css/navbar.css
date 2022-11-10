@@ -9,6 +9,10 @@ nav a {
 
     padding: var(--navbar-a-padding);
     margin: var(--navbar-a-margin);
+
+    background-color: transparent;
+    transition: background-color 0.2s;
+    transition-timing-function: ease-out;
 }
 /* Highlighting the button corresponding to the current page,
 or whats currently being moused over */
@@ -17,19 +21,6 @@ nav a.current-page {
     color: black !important;
 }
 nav a:hover:not(.current-page) {
-    /* animation: 0.75s ease-in 1 button-hover  */
-    animation-name: button-hover;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-@keyframes button-hover {
-    from {
-        background: transparent;
-        color: var(--navbar-text-color);
-    }
-    to {
-        background: white;
-        color: black;
-    }
+    background: white;
+    color: black;
 }
