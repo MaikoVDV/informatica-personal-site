@@ -17,3 +17,10 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Most of the content is contained in this div to make responsiveness easier */
+.main-page-content {
+    width: 80%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
