@@ -1,6 +1,22 @@
-.maiko-face {
-    float: right;
+@media screen and (min-width: 1000px) {
+    .maiko-face {
+        float: right;
+        width: 40%;
+    }
+    .about-text-area {
+        width: 60%;
+    }
 }
+@media screen and (max-width: 1000px) {
+    .maiko-face {
+        width: 100%;
+        content: var(--about-face-full);
+    }
+    .about-text-area {
+        margin-top: 1.5rem;
+    }
+}
+
 .about-section {
     margin-top: 1.5rem;
 }
