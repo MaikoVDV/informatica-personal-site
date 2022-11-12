@@ -5,17 +5,22 @@
     --navbar-text-color: #fff;
     --navbar-divider-color: #777;
     /* Font sizes */
-    --navbar-font-size: 1.75em;
+    --navbar-font-size: 1.5vw;
     /* Element sizes */
     --navbar-a-padding: 0.5rem 0.5em;
     --navbar-a-margin: 0.3em 0em;
     --navbar-a-edge-margin: 0.3em;
+    --navbar-max-height: 5vh !important;
     /* Dynamic image sources */
-    --about-face-full: url("../assets/gigachad_smol.jpg");
+    --about-face-full: url("../assets/gigachad.jpg");
+    --about-face-small: url("../assets/gigachad_smol.jpg");
+    /* Misc. Margins */
+    --main-content-margin: 3rem;
 }
 body {
     background-color: var(--page-background);
     margin: 0px;
+    height: 100%;
 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,7 +30,7 @@ body {
     position: relative;
     transform: translateX(-50%);
     left: 50%;
-    margin-top: 3rem;
+    margin-top: var(--main-content-margin);
 }
 .page-title {
     margin: 0px;

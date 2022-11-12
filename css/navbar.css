@@ -1,19 +1,35 @@
 nav {
     background-color: var(--navbar-background);
     display: flex;
+    width: 100%;
 }
 nav a {
-    font-size: var(--navbar-font-size);
     color: var(--navbar-text-color);
-    text-decoration: none;
 
     padding: var(--navbar-a-padding);
     margin: var(--navbar-a-margin);
-
+    width: 100%;
+    max-height: var(--navbar-max-height);
+    text-align: center;
+    text-decoration: none;
     background-color: transparent;
     transition: background-color 0.2s;
     transition-timing-function: ease-out;
 }
+@media screen and (min-width: 1000px) {
+    nav a {
+       font-size: var(--navbar-font-size);
+   }
+}
+@media screen and (max-width: 1000px) {
+    nav a {
+       font-size: calc(var(--navbar-font-size) * 2);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+}
+
 /* Highlighting the button corresponding to the current page,
 or whats currently being moused over */
 nav a.current-page { 

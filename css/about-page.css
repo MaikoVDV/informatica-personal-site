@@ -6,17 +6,30 @@
     .about-text-area {
         width: 60%;
     }
+    .about-section .section-header p {
+        font-size: 1.3rem;
+    }
+    
 }
 @media screen and (max-width: 1000px) {
     .maiko-face {
         width: 100%;
-        content: var(--about-face-full);
+        content: var(--about-face-small);
     }
     .about-text-area {
         margin-top: 1.5rem;
     }
+    .about-section .section-header p {
+        font-size: 2rem;
+        height: 2rem;
+    }
+    .about-section li {
+        font-size: 1rem;
+    }
 }
-
+.page-title {
+    font-size: 4rem;
+}
 .about-section {
     margin-top: 1.5rem;
 }
@@ -28,7 +41,10 @@
 .about-section .section-header img {
     height: 100%;
     margin-right: 0.4rem;
+    text-align: center;
 }
-.about-section .section-header p {
+
+.about-section p {
     margin: auto 0px;
+    font-weight: bold;
 }
