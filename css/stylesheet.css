@@ -16,6 +16,8 @@
     --about-face-small: url("../assets/gigachad_smol.jpg");
     /* Misc. Margins */
     --main-content-margin: 3rem;
+    /* Borders */
+    --embed-border-radius: 1em;
 }
 body {
     background-color: var(--page-background);
