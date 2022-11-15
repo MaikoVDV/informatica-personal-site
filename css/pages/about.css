@@ -1,7 +1,10 @@
 @media screen and (min-width: 1000px) {
-    .maiko-face {
+    #maiko-face {
         float: right;
         width: 40%;
+        /* background-image: url("../../assets/gigachad.jpg");
+        background-repeat: none;
+        background-size: cover; */
     }
     .about-text-area {
         width: 60%;
@@ -12,9 +15,12 @@
     
 }
 @media screen and (max-width: 1000px) {
-    .maiko-face {
+    #maiko-face {
         width: 100%;
-        content: var(--about-face-small);
+        /* background-image: url("../../assets/gigachad_smol.jpg");
+        background-repeat: none;
+        background-size: cover; */
+        height: auto;
     }
     .about-text-area {
         margin-top: 1.5rem;

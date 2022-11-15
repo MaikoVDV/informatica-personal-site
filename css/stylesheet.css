@@ -12,8 +12,8 @@
     --navbar-a-edge-margin: 0.3em;
     --navbar-max-height: 5vh !important;
     /* Dynamic image sources */
-    --about-face-full: url("../assets/gigachad.jpg");
-    --about-face-small: url("../assets/gigachad_smol.jpg");
+    --about-face-full: "../assets/gigachad.jpg";
+    --about-face-small: "../assets/gigachad_smol.jpg";
     /* Misc. Margins */
     --main-content-margin: 3rem;
     /* Borders */

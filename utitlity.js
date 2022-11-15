@@ -8,3 +8,16 @@ function styleNavbar() {
         }
     });
 }
+window.addEventListener('resize', function(event) {
+    aboutPageResize()
+}, true);
+// Making the about page responsive
+function aboutPageResize() {
+    const bigFace = "assets/gigachad.jpg"
+    const smallFace = "assets/gigachad_smol.jpg"
+    if(window.innerWidth <= 1000) {
+        document.getElementById("maiko-face").src = smallFace;
+    } else {
+        document.getElementById("maiko-face").src = bigFace;
+    }
+}
