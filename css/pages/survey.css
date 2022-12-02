@@ -6,5 +6,6 @@
     height: 100%;
 }
 .main-page-content {
-    height: calc(100% - var(--navbar-max-height) - var(--main-content-margin));
+    /* Doesn't work. dont know why. */
+    /* height: calc(100% - var(--navbar-max-height) - var(--main-content-margin) - var(--navbar-a-padding)); */
 }

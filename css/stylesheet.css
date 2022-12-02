@@ -4,20 +4,26 @@
     --navbar-background: #1a1a1a;
     --navbar-text-color: #fff;
     --navbar-divider-color: #777;
+
+    --pp-container-background: #fff;
     /* Font sizes */
     --navbar-font-size: 1.5vw;
+    --pp-header-size: 2.5vw;
     /* Element sizes */
     --navbar-a-padding: 0.5rem 0.5em;
     --navbar-a-margin: 0.3em 0em;
-    --navbar-a-edge-margin: 0.3em;
+    --navbar-a-edge-margin: 0.3em 0em;
     --navbar-max-height: 5vh !important;
+    --pp-container-padding: 1rem;
     /* Dynamic image sources */
     --about-face-full: "../assets/gigachad.jpg";
     --about-face-small: "../assets/gigachad_smol.jpg";
     /* Misc. Margins */
     --main-content-margin: 3rem;
+    --pp-container-margin: 2rem 0;
     /* Borders */
     --embed-border-radius: 1em;
+    --pp-container-radius: 1em;
 }
 body {
     background-color: var(--page-background);

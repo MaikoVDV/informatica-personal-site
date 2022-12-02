@@ -1,0 +1,24 @@
+.pp-container {
+    width: 100%;
+    height: 30%;
+    background: var(--pp-container-background);
+    border-radius: var(--pp-container-radius);
+    padding: var(--pp-container-padding);
+    margin: var(--pp-container-margin);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.pp-container h3 {
+    margin: 0px;
+    font-size: var(--pp-header-size);
+}
+.pp-container p {
+    margin: 0px;
+}
+.pp-container p {
+    margin: 0px;
+}
+.pp-container img {
+    height: 100%;
+}
