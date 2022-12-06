@@ -15,9 +15,7 @@
 }
 .pp-container p {
     margin: 0px;
-}
-.pp-container p {
-    margin: 0px;
+    margin-right: 1rem;
 }
 .pp-container img {
     height: 100%;
