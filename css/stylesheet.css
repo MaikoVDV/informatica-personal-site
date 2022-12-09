@@ -8,7 +8,8 @@
     --pp-container-background: #fff;
     /* Font sizes */
     --navbar-font-size: 1.5vw;
-    --pp-header-size: 1.5vw;
+    --pp-header-size: 2em;
+    --pp-text-size: 1.2em;
     /* Element sizes */
     --navbar-a-padding: 0.5rem 0.5em;
     --navbar-a-margin: 0.3em 0em;
